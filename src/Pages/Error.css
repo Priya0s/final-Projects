@@ -1,0 +1,290 @@
+.Main{
+    position: relative;
+width: 1920 px;
+height: 981 px;
+}
+.Banner{
+    position: absolute;
+width: 1920px;
+height: 982px;
+left: 100.86px; 
+
+}
+.Banner_intro{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 81px;
+
+position: absolute;
+width: 1913px;
+height: 942px;
+ left: 100.86px; 
+
+
+}
+.Container{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 23px;
+
+width: 569px;
+height: 424px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Container_subcontent{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 569px;
+height: 326px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Container_subcontent>h1{
+    width: 395px;
+height: 172px;
+margin-right: 200px;
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 250px;
+line-height: 125%;
+/* or 312px */
+
+display: flex;
+align-items: center;
+
+color: #CDA274;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Container_subcontent>p{
+    width: 569px;
+height: 139px;
+margin-right: 200px;
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 150%;
+/* or 52px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+color: #292F36;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Container>button{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 26px 54px;
+gap: 10px;
+margin-right: 200px;
+width: 253.14px;
+height: 75px;
+
+background: #292F36;
+box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+border-radius: 18px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.images{
+    width: 413px;
+height: 342px;
+margin-left: 400px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.images>img{
+    border-radius: 0px 0px 0px 353px;
+    width: 813px;
+margin-left: 100px;
+}
+.footer_main{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+/* gap: 134px; */
+
+position: absolute;
+width: 1920px;
+height: 577px;
+
+
+left: 0px;
+/* top: 5561px; */
+
+
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.col {
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+h4 {
+  font-weight: 300px;
+  margin-bottom: 10px;
+ 
+ 
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+li {
+  margin-bottom: 10px;
+}
+.col >h2{
+  position: absolute;
+  width: 133px;
+  height: 50px;
+  left: 44px;
+  top: 0px;
+  
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 125%;
+  /* identical to box height, or 50px */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #292F36;
+  
+}
+.col>img{
+  margin-top: 5px;
+}
+
+
+.para{
+  width: 393px;
+height: 66px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+/* or 33px */
+margin-top: 40px;
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+color: #4D5053;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.para2{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 54px;
+
+width: 225px;
+height: 23px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.copyright{
+  width: 1920px;
+height: 73px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.copyright>p{
+  position: absolute;
+width: 752px;
+height: 33px;
+left: 584px;
+top: 544px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+/* identical to box height, or 33px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+border-top: 1px solid #4D5053;
+color: #4D5053;
+
+}

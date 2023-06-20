@@ -1,0 +1,184 @@
+.Counter{
+    position: absolute;
+width: 1200px;
+height: 557px;
+left: 0px;
+
+/* top: 5479px; */
+ }   
+.counter{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 76px;
+
+background: #F4F0EC;
+border: 1px solid black;
+position: absolute;
+width: 1082px;
+height: 255px;
+left: 119px;
+
+}
+.sec1{
+    width: 246px;
+height: 155px;
+top: 40px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Text{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 192px;
+height: 50px;
+top:60px;
+left:0px
+}
+h3{
+    width: 77px;
+height: 50px;
+
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 100%;
+/* or 106px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+color: #CDA274;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Text,.Text2,.Text3,.Text4>p{
+    width: 192px;
+height: 33px;
+/* top: 20px; */
+font-family: 'Jost';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 150%;
+margin-left: 20px;
+/* identical to box height, or 33px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+color: #4D5053;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Text>.para{
+    position: absolute;
+
+height: 0px;
+left: 180px;
+top: 50px;
+width: 90px;
+border: 1px solid #CDA274;
+transform: rotate(90deg);
+}
+.sec2{
+    width: 223px;
+height: 155px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Text2{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 155px;
+left: 340px;
+
+top:60px;
+}
+.Text2>.para2{
+    position: absolute;
+
+height: 0px;
+left: 170px;
+
+top: 50px;
+width: 90px;
+border: 1px solid #CDA274;
+transform: rotate(90deg);
+}
+.sec3{
+    width: 214px;
+height: 155px;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.Text3{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 130px;
+height: 155px;
+left: 660px;
+top: 60px;
+
+}
+.Text3>.para3{
+    position: absolute;
+
+height: 0px;
+left: 165px;
+
+top: 50px;
+width: 90px;
+border: 1px solid #CDA274;
+transform: rotate(90deg);
+}
+.sec4{
+    width: 171px;
+height: 155px;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.Text4{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 171px;
+height: 155px;
+left: 940px;
+top: 60px;
+
+}
